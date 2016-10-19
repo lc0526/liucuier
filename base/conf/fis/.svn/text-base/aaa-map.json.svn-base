@@ -1,0 +1,46 @@
+{
+    "res": {
+        "aaa:page/index.tpl": {
+            "uri": "aaa/page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "aaa:page/layout.tpl": {
+            "uri": "aaa/page/layout.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "aaa:static/js/bigpipe.js": {
+            "uri": "/static/aaa/static/js/bigpipe.js",
+            "type": "js"
+        },
+        "aaa:static/js/index.js": {
+            "uri": "/static/aaa/static/js/index.js",
+            "type": "js"
+        },
+        "aaa:static/js/lazyload.js": {
+            "uri": "/static/aaa/static/js/lazyload.js",
+            "type": "js"
+        },
+        "aaa:static/js/mod.js": {
+            "uri": "/static/aaa/static/js/mod.js",
+            "type": "js"
+        },
+        "aaa:static/js/page.js": {
+            "uri": "/static/aaa/static/js/page.js",
+            "type": "js",
+            "deps": [
+                "aaa:static/js/bigpipe.js"
+            ]
+        },
+        "aaa:widget/message/message.tpl": {
+            "uri": "aaa/widget/message/message.tpl",
+            "type": "tpl"
+        }
+    },
+    "pkg": {}
+}

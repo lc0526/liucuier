@@ -1,0 +1,25 @@
+/**
+ * @file 后端服务配置DEMO
+ * @author fis@baidu.com
+ */
+
+module.exports = {
+  'CRM': {
+      unpack: 'string',
+      pack: 'form',
+      method: 'POST',
+      encoding: 'utf-8',
+      balance: 'random',
+      protocol: 'http',
+      retry: 2,
+      timeout: 5000,
+      server: [
+          {
+            // host: '111.200.241.251',
+            // port: 14081
+            host: '192.168.1.39',
+            port: 80
+          }
+      ]
+  }
+};

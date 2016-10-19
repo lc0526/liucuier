@@ -1,0 +1,42 @@
+{
+    "res": {
+        "home:page/index.tpl": {
+            "uri": "home/page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/fm/index.tpl": {
+            "uri": "home/page/fm/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:static/css/details.less": {
+            "uri": "/static/home/static/css/details_62eec1a.css",
+            "type": "css"
+        },
+        "home:static/css/index.less": {
+            "uri": "/static/home/static/css/index_5377c56.css",
+            "type": "css"
+        },
+        "home:static/css/list.less": {
+            "uri": "/static/home/static/css/list_9c7e65f.css",
+            "type": "css"
+        },
+        "home:static/css/reset.css": {
+            "uri": "/static/home/static/css/reset_cf8f4c7.css",
+            "type": "css"
+        },
+        "home:page/fm/details/index.tpl": {
+            "uri": "home/page/fm/details/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        }
+    },
+    "pkg": {}
+}

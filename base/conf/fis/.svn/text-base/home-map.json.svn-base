@@ -1,0 +1,208 @@
+{
+    "res": {
+        "home:page/cogs/add_user.tpl": {
+            "uri": "home/page/cogs/add_user.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/cogs/college_manage.tpl": {
+            "uri": "home/page/cogs/college_manage.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/cogs/index.tpl": {
+            "uri": "home/page/cogs/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/cogs/role_manage.tpl": {
+            "uri": "home/page/cogs/role_manage.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/cogs/user_manage.tpl": {
+            "uri": "home/page/cogs/user_manage.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/common/header.tpl": {
+            "uri": "home/page/common/header.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/common/layout.tpl": {
+            "uri": "home/page/common/layout.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/common/slider.tpl": {
+            "uri": "home/page/common/slider.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/customer/add_apply_info/index.tpl": {
+            "uri": "home/page/customer/add_apply_info/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/customer/add_customer.tpl": {
+            "uri": "home/page/customer/add_customer.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/customer/customer_info.tpl": {
+            "uri": "home/page/customer/customer_info.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/customer/customer_list.tpl": {
+            "uri": "home/page/customer/customer_list.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/customer/index.tpl": {
+            "uri": "home/page/customer/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/customer/my_customer.tpl": {
+            "uri": "home/page/customer/my_customer.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/data/applyfor_conver.tpl": {
+            "uri": "home/page/data/applyfor_conver.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/data/crowd_conver.tpl": {
+            "uri": "home/page/data/crowd_conver.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/data/index.tpl": {
+            "uri": "home/page/data/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/finanicial/index.tpl": {
+            "uri": "home/page/finanicial/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/finanicial/refused_apply.tpl": {
+            "uri": "home/page/finanicial/refused_apply.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/finanicial/successful_repay_customer.tpl": {
+            "uri": "home/page/finanicial/successful_repay_customer.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/finanicial/wait_approval_apply.tpl": {
+            "uri": "home/page/finanicial/wait_approval_apply.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/finanicial/wait_repay_customer.tpl": {
+            "uri": "home/page/finanicial/wait_repay_customer.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/index.tpl": {
+            "uri": "home/page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/loan/index.tpl": {
+            "uri": "home/page/loan/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/loan/loan_preset.tpl": {
+            "uri": "home/page/loan/loan_preset.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/loan/refused_apply.tpl": {
+            "uri": "home/page/loan/refused_apply.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/loan/successful_loan.tpl": {
+            "uri": "home/page/loan/successful_loan.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/loan/wait_approval_apply.tpl": {
+            "uri": "home/page/loan/wait_approval_apply.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/loan/wait_conduct_loan.tpl": {
+            "uri": "home/page/loan/wait_conduct_loan.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        }
+    },
+    "pkg": {}
+}

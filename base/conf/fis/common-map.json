@@ -1,0 +1,27 @@
+{
+    "res": {
+        "common:page/layout.tpl": {
+            "uri": "common/page/layout.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "common:static/css/font-awesome.min.css": {
+            "uri": "/static/common/static/css/font-awesome.min_a0dba03.css",
+            "type": "css"
+        },
+        "common:widget/header/header.less": {
+            "uri": "/static/common/widget/header/header_23dbb8d.css",
+            "type": "css"
+        },
+        "common:widget/header/header.tpl": {
+            "uri": "common/widget/header/header.tpl",
+            "type": "tpl",
+            "deps": [
+                "common:widget/header/header.less"
+            ]
+        }
+    },
+    "pkg": {}
+}

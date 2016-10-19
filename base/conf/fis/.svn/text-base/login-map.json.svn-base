@@ -1,0 +1,12 @@
+{
+    "res": {
+        "login:page/index.tpl": {
+            "uri": "login/page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        }
+    },
+    "pkg": {}
+}
