@@ -1,4 +1,0 @@
-scp -r ./conf root@111.200.241.252:/home/newbie/newbiecrm/nodecrm/
-scp -r ./plugins root@111.200.241.252:/home/newbie/newbiecrm/nodecrm/
-scp -r ./app.js root@111.200.241.252:/home/newbie/newbiecrm/nodecrm/
-scp -r ./package.json root@111.200.241.252:/home/newbie/newbiecrm/nodecrm/
