@@ -1,0 +1,20 @@
+var modelindex = require('../model/index.js');
+var util = require('../../common/lib/util');
+var promise = require('bluebird');
+var _ = require('underscore');
+
+module.exports = function(req, res, next){
+	var query = req.query || {};  // (请求里面的键值对)
+	var data = {
+		query: query
+	};
+	modelindex(req, function (rel) {
+		_.extend(data, {
+			pageData: rel
+		});
+		
+		res.render('home/page/index.tpl', data);
+	}, function (error) {
+		next(error);
+	}, res);
+};

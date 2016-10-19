@@ -1,0 +1,68 @@
+var util = require('./lib/util');
+var promise = require('bluebird');
+
+module.exports = function(router){
+    router.use(function (req, res, next) {
+        var url = req.url;
+
+        // 有筛选条件，则去掉？后内容
+        var urlArr = url.split('?')[0].split('/');
+        var subMenu = urlArr[urlArr.length - 1];
+        var subMenuId;
+
+        var pageData = util.requestApi({
+            path: '/getUserMenuByCampus',
+            params: {},
+            headers: req.headers
+        });
+
+        promise.all([pageData]).then(function (args) {
+            var data = JSON.parse(args[0]) || {};
+            var menuResult = data.result || {};
+            var smenu = menuResult.menu || [];
+            var menu = {};
+            var by = function (name){
+                return function (o,p){
+                    var a, b;
+                    if(typeof o === "object" && typeof p === "object" && o && p) {
+                        a = parseInt(o[name]);
+                        b = parseInt(p[name]);
+                        if(a === b) {
+                            return 0;
+                        }
+                        if(typeof a === typeof b) {
+                            return a < b ? -1 : 1;
+                        }
+                        return typeof a < typeof b ? -1 : 1;
+                    }
+                    else{
+                        throw ("error");
+                    }
+                }
+            };
+
+            for (var i  = 0, l = smenu.length; i < l; i++) {
+                var item = smenu[i];
+                var pid = item.pid;
+                var id = item.id;
+                if (pid === null) {
+                    menu[id] = item;
+                    menu[id]['subitem'] = [];
+                } else {
+                    menu[pid]['subitem'].push(item);
+                    menu[pid]['subitem'].sort(by('seq'));
+                    for(var j = 0, ll = menu[pid]['subitem'].length;j < ll;j ++){
+                        if(menu[pid]['subitem'][j].url == subMenu){
+                            subMenuId = menu[pid]['subitem'][j].id;
+                        }
+                    }
+                }
+            }
+
+            req.menu = menu;
+            req.subMenu = subMenu;
+            req.subMenuId = subMenuId;
+            next();
+        });
+    });
+};
