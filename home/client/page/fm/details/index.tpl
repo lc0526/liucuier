@@ -6,9 +6,9 @@
 
 {% block description %}要么读书，要么旅行，身体和灵魂总要有一个在路上···{% endblock%}
 
-{% block body %}
+{% block content %}
     {% require 'home:static/css/details.less' %}
-	{% widget 'common:widget/header/header.tpl' %}
+	{% widget 'common:widget/header/fm_header.tpl' %}
 	<div class="body">
 		<div class="warp">
 			<article class="markdown-body entry-content" itemprop="text">
