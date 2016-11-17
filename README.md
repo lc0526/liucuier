@@ -11,7 +11,7 @@ cd base
 npm install
 # base/app.js 内可以更改运行端口
 ```
-参考文档：(YOG2)[http://fex.baidu.com/yog2/docs/]
+参考文档：[YOG2](http://fex.baidu.com/yog2/docs/)
 
 ### 启动项目
 
