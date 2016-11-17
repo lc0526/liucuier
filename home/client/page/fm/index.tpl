@@ -6,9 +6,9 @@
 
 {% block description %}要么读书，要么旅行，身体和灵魂总要有一个在路上···{% endblock%}
 
-{% block body %}
+{% block content %}
 	{% require 'home:static/css/list.less' %}
-	{% widget 'common:widget/header/header.tpl' %}
+	{% widget 'common:widget/header/fm_header.tpl' %}
 	
 	<div class="body">
 		<div class="top_content">
@@ -20,7 +20,7 @@
 			<div class="programList">
 				<ul class="clear_fix">
 					<li>
-						<a href="" class="pic"><img src="../../static/images/thumbs/20120924.jpg" alt=""></a>
+						<a href="" class="pic"><img src="http://audioimg.iqianduan.net/walkingInBeijing-thumb_bg.jpg" alt=""></a>
 						<div class="item_con">
 							<h4 class="tit f14 clear_fix">
 								<a href="/fm/details" class="fl">行走在北京</a>
@@ -34,7 +34,7 @@
 						<span class="item_classify"><i class="fa fa-headphones"></i> 有声电台</span>
 					</li>
 					<li>
-						<a href="" class="pic"><img src="../../static/images/thumbs/20121008.jpg" alt=""></a>
+						<a href="" class="pic"><img src="http://audioimg.iqianduan.net/iWantToMarry-thumb_bg.jpg" alt=""></a>
 						<div class="item_con">
 							<h4 class="tit f14 clear_fix"><a href="" class="fl">我要结婚</a><span class="fr f12"><i class="fa fa-calendar"></i> 2014-12-12</span></h4>
 							<p class="item_author f12"><i class="fa fa-user"></i> <a href="">烟云怀僧</a></p>
@@ -42,7 +42,7 @@
 						<span class="item_classify"><i class="fa fa-headphones"></i> 有声电台</span>
 					</li>
 					<li>
-						<a href="" class="pic"><img src="../../static/images/thumbs/20121014.jpg" alt=""></a>
+						<a href="" class="pic"><img src="http://audioimg.iqianduan.net/dogopinion-thumb_bg.jpg" alt=""></a>
 						<div class="item_con">
 							<h4 class="tit f14 clear_fix"><a href="" class="fl">狗狗小萨</a><span class="fr f12"><i class="fa fa-calendar"></i> 2014-12-12</span></h4>
 							<p class="item_author f12"><i class="fa fa-user"></i> <a href="">烟云怀僧</a></p>
@@ -50,7 +50,7 @@
 						<span class="item_classify"><i class="fa fa-headphones"></i> 有声电台</span>
 					</li>
 					<li>
-						<a href="" class="pic"><img src="../../static/images/thumbs/20130204.jpg" alt=""></a>
+						<a href="" class="pic"><img src="http://audioimg.iqianduan.net/goHome-thumb_bg.jpg" alt=""></a>
 						<div class="item_con">
 							<h4 class="tit f14 clear_fix"><a href="" class="fl">回家</a><span class="fr f12"><i class="fa fa-calendar"></i> 2014-12-12</span></h4>
 							<p class="item_author f12"><i class="fa fa-user"></i> <a href="">烟云怀僧</a></p>
@@ -58,7 +58,7 @@
 						<span class="item_classify"><i class="fa fa-headphones"></i> 有声电台</span>
 					</li>
 					<li>
-						<a href="" class="pic"><img src="../../static/images/thumbs/20120924.jpg" alt=""></a>
+						<a href="" class="pic"><img src="http://audioimg.iqianduan.net/walkingInBeijing-thumb_bg.jpg" alt=""></a>
 						<div class="item_con">
 							<h4 class="tit f14 clear_fix"><a href="" class="fl">行走在北京</a><span class="fr f12"><i class="fa fa-calendar"></i> 2014-12-12</span></h4>
 							<p class="item_author f12"><i class="fa fa-user"></i> <a href="">烟云怀僧</a></p>
@@ -66,7 +66,7 @@
 						<span class="item_classify"><i class="fa fa-headphones"></i> 有声电台</span>
 					</li>
 					<li>
-						<a href="" class="pic"><img src="../../static/images/thumbs/20121008.jpg" alt=""></a>
+						<a href="" class="pic"><img src="http://audioimg.iqianduan.net/iWantToMarry-thumb_bg.jpg" alt=""></a>
 						<div class="item_con">
 							<h4 class="tit f14 clear_fix"><a href="" class="fl">我要结婚</a><span class="fr f12"><i class="fa fa-calendar"></i> 2014-12-12</span></h4>
 							<p class="item_author f12"><i class="fa fa-user"></i> <a href="">烟云怀僧</a></p>
@@ -74,7 +74,7 @@
 						<span class="item_classify"><i class="fa fa-headphones"></i> 有声电台</span>
 					</li>
 					<li>
-						<a href="" class="pic"><img src="../../static/images/thumbs/20121014.jpg" alt=""></a>
+						<a href="" class="pic"><img src="http://audioimg.iqianduan.net/dogopinion-thumb_bg.jpg" alt=""></a>
 						<div class="item_con">
 							<h4 class="tit f14 clear_fix"><a href="" class="fl">狗狗小萨</a><span class="fr f12"><i class="fa fa-calendar"></i> 2014-12-12</span></h4>
 							<p class="item_author f12"><i class="fa fa-user"></i> <a href="">烟云怀僧</a></p>
@@ -82,7 +82,7 @@
 						<span class="item_classify"><i class="fa fa-headphones"></i> 有声电台</span>
 					</li>
 					<li>
-						<a href="" class="pic"><img src="../../static/images/thumbs/20130204.jpg" alt=""></a>
+						<a href="" class="pic"><img src="http://audioimg.iqianduan.net/goHome-thumb_bg.jpg" alt=""></a>
 						<div class="item_con">
 							<h4 class="tit f14 clear_fix"><a href="" class="fl">回家</a><span class="fr f12"><i class="fa fa-calendar"></i> 2014-12-12</span></h4>
 							<p class="item_author f12"><i class="fa fa-user"></i> <a href="">烟云怀僧</a></p>
