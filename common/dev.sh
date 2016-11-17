@@ -5,7 +5,7 @@ if [ $1 ]; then
     elif [ $1 = 'rr' ]; then
         echo "remote release mode upload"
         yog2 release -cuompd ./output
-        scp -r ./output/* root@123.57.38.206:/var/www/liucuier
+        scp -r ./output/* user@ip:path
         rm -rf output
     elif [ $1 = 'd' ]; then
         echo "debug release mode"
