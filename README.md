@@ -5,13 +5,13 @@ blog 地址：http://www.liucuier.com
 目前正在策划中，敬请期待
 
 ### 安装依赖
+```shell
 npm install -g yog2
-
 cd base
-
 npm install
-
-> base/app.js 内可以更改运行端口
+# base/app.js 内可以更改运行端口
+```
+参考文档：(YOG2)[http://fex.baidu.com/yog2/docs/]
 
 ### 启动项目
 
