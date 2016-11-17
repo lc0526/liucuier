@@ -1,0 +1,6 @@
+_Store
+base/app
+base/views
+base/static
+dist/
+npm-debug.log
